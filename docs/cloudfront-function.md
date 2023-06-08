@@ -254,7 +254,7 @@ More code examples
 - [Github - Amazon CloudFront Functions](https://github.com/aws-samples/amazon-cloudfront-functions)
 
 ???+ tip "TIP: Rather use Amazon CloudFront response headers policies"
-    You no longer need to configure your origins or use custom Lambda@Edge or CloudFront functions to insert these headers. 
+    You no longer need to configure your origins or use custom Lambda@Edge or CloudFront functions to insert these headers.
     
     See [Amazon CloudFront now supports configurable CORS, security, and custom HTTP response headers](https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-cloudfront-supports-cors-security-custom-http-response-headers/){target="_blank"}
 

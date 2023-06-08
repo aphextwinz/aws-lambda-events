@@ -16,13 +16,13 @@ You can protect your lambda handles at the event source level, and avoid lambda 
     - [http - jwt](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-jwt-authorizer.html){target="_blank"}
     - [graphql - oidc](https://docs.aws.amazon.com/appsync/latest/devguide/security-authz.html#openid-connect-authorization)
     - [rest/http/graphql - custom](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-lambda-authorizer.html){target="_blank"}
-    - [rest - IAM tags to control access](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-tagging-iam-policy.html))
+    - [rest - IAM tags to control access](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-tagging-iam-policy.html)
     - [rest/http - mutual TLS authentication](https://docs.aws.amazon.com/apigateway/latest/developerguide/rest-api-mutual-tls.html)
     - [rest/graphql - x-api-key](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-setup-api-key-with-restapi.html)
 
 - Event source can only be available within a [VPC](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-private-apis.html)
 
-- Event source can limit by sourceIp or VPC 
+- Event source can limit by sourceIp or VPC
     - [Controlling access to an API with API Gateway resource policies](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-resource-policies.html)
 
 ```json

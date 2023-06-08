@@ -94,7 +94,7 @@ Common response fields
 Format 2.0 specific fields, a replacement for `multiValueHeaders` from format 1.0
 
 `cookies` (Array of strings)
-: Dedeicated field for cookies 
+: Dedeicated field for cookies
 
 ```json title="Lambda function response for format 2.0"
 {
