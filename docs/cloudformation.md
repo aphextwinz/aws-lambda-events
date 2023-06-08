@@ -26,7 +26,7 @@ Must be one of: `Create`, `Update`, or `Delete`.
 : The response URL identifies a presigned S3 bucket that receives responses from the custom resource provider to AWS CloudFormation.
 
 `StackId` (String)
-: The Amazon Resource Name (ARN) that identifies the stack that contains the custom resource. 
+: The Amazon Resource Name (ARN) that identifies the stack that contains the custom resource.
 Combining the `StackId` with the `RequestId` forms a value that you can use to uniquely identify a request on a particular custom resource.
 
 `RequestId` (String)
@@ -87,7 +87,7 @@ _Required_: Required if Status is `FAILED`. It's optional otherwise.
 The value must be a non-empty string and must be identical for all responses for the same resource.
 
 `StackId` (String)
-: The Amazon Resource Name (ARN) that identifies the stack that contains the custom resource. This response value should be 
+: The Amazon Resource Name (ARN) that identifies the stack that contains the custom resource. This response value should be
 copied verbatim from the request.
 
 `RequestId` (String)

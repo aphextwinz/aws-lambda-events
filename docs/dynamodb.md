@@ -1,6 +1,6 @@
 # DynamoDB
 
-Amazon DynamoDB stream, Lambda reads records from the stream and invokes your function synchronously with an event that contains stream records. 
+Amazon DynamoDB stream, Lambda reads records from the stream and invokes your function synchronously with an event that contains stream records.
 Lambda reads records in batches and invokes your function to process records from the batch.
 
 ## Request
